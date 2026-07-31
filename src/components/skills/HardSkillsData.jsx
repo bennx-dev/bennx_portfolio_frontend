@@ -133,7 +133,7 @@ export const skills = {
         },
         {
             href: "https://www.freecodecamp.org/news/how-to-write-clean-code/",
-            icon: <img src="/cleancode.svg" alt="clean code"/>,
+            icon: <img src="/code.ico" alt="clean code"/>,
             label: "Clean Code",
             tooltip: "Tips and Best Practices for clean code"
         },
@@ -161,7 +161,7 @@ export const skills = {
         },
         {
             href: "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro",
-            icon: <img src="/mcp.svg" alt="mcp"/>,
+            icon: <img src="/mcp.png" alt="mcp"/>,
             label: "MCP",
             tooltip: "connect to external tool servers"
         },
@@ -173,7 +173,7 @@ export const skills = {
         },
         {
             href: "https://hermes-agent.nousresearch.com/docs",
-            icon: <img src="/agent.svg" alt="agent"/>,
+            icon: <img src="/agent.webp" alt="agent"/>,
             label: "AI Agents",
             tooltip: "self-improving AI agent"
         },
