@@ -1,0 +1,74 @@
+/* ========================================
+   SOFT SKILLS
+======================================== */
+.soft-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.hero-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: clamp(64px, 8vw, 111px);
+    margin: var(--margin-text);
+    transform: translateX(-7px);
+}
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    color: var(--color-primary);
+
+    font-size: var(--fs-md);
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+
+    margin: var(--margin-text);
+
+    transition: transform 0.35s ease, box-shadow 0.35s ease, filter 0.35s ease, border-color 0.35s ease;
+}
+
+.subtitle:hover {
+    transform: perspective(1200px) rotateX(2deg) rotateY(-2deg) scale(0.99);
+    filter: brightness(1.15);
+}
+
+.subtitle a {
+    display: inline;
+}
+
+.developer-subtitle {
+    color: var(--color-secundary);
+}
+
+.intro-text {
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    margin: var(--margin-text);
+    max-width: 100%;
+}
+
+.intro-text-p {
+    margin-bottom: 0;
+}
+
+.action-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+
+    margin: var(--margin-text);
+    margin-top: var(--margin-top);
+}

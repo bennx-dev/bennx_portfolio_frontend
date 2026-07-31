@@ -1,0 +1,17 @@
+.soft-skills-icons img {
+    border-radius: 3px;
+}
+
+.soft-skills-icons img {
+    object-fit: contain;
+}
+
+.soft-skills-icons:hover {
+    transform: perspective(1200px) rotateX(2deg) rotateY(-2deg) scale(1.06);
+    filter: brightness(1.15);
+}
+
+.soft-skills-icons:hover img {
+    transform: perspective(1200px) rotateX(2deg) rotateY(-2deg) scale(1.06);
+    filter: brightness(1.15);
+}

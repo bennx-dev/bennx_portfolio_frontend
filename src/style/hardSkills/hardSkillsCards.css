@@ -1,0 +1,122 @@
+.hard-skills {
+    display: flex;
+}
+
+/* ========================================
+   HARD SKILLS DESKTOP
+======================================== */
+
+.desktop-skills {
+    position: relative;
+
+    width: 600px;
+    height: 700px;
+}
+
+/* ========================================
+   CARDS
+======================================== */
+
+.skill-card {
+    position: absolute;
+    width: 190px;
+    padding: clamp(10px, 2vw, 20px);
+    border-radius: 18px;
+    border: 1px solid rgba(194, 143, 68, 0.25);
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    transition: 0.3s ease;
+}
+
+.skill-card h4 {
+    margin-bottom: 10px;
+    color: #c28f44;
+    font-size: clamp(0.8rem, 1.5vw, 1.1rem);
+}
+
+.skill-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skill-links a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.skill-links a:hover {
+    color: #c28f44;
+    transform: translateX(4px);
+}
+
+.skill-links img {
+    width: 24px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.icon-sm-card {
+    width: 24px;
+    height: auto;
+}
+
+/* ========================================
+   CARD POSITIONS
+======================================== */
+
+.softwareDevelopment {
+    top: 8%;
+    left: 0;
+}
+
+.itOperations {
+    top: 8%;
+    right: 0;
+}
+
+.automation {
+    bottom: -4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bestPractices {
+    bottom: 6.6%;
+    right: 0;
+}
+
+.project {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ai {
+    bottom: 4.5%;
+    left: 0;
+}
+
+/* ========================================
+   CARD HOVERS
+======================================== */
+
+.softwareDevelopment:hover,
+.itOperations:hover,
+.automation:hover,
+.bestPractices:hover,
+.ai:hover,
+.project:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 25px rgba(194, 143, 68, 0.15);
+}
+
+.project:hover,
+.automation:hover
+{
+    transform: translateX(-50%) translateY(-4px);
+}

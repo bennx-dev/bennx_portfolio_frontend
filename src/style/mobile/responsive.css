@@ -1,0 +1,101 @@
+.mobile-skills, .header {
+    display: none;
+}
+
+/* tablet + mobile TOT 1000px breed*/
+@media (max-width: 1150px) {
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .desktop-skills {
+        display: none;
+    }
+
+    .skills-section {
+        flex-direction: column;
+        gap: var(--space-flex-gap);
+        padding: 40px 20px;
+        margin-top: 0;
+    }
+
+    .subtitle,
+    .intro-text,
+    .action-row {
+        margin: var(--margin-mobile-text);
+    }
+
+    .intro-text-p {
+        margin-bottom: 0;
+    }
+
+    .intro-text {
+        max-width: 100%;
+    }
+
+    .mobile-skills {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 16px;
+        width: 100%;
+
+        border-radius: 12px;
+    }
+
+    .skill-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skill-links a span {
+        display: none;
+    }
+
+    .skill-links img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .mobile-skills .skill-card {
+        position: relative;
+
+        width: min(100%, 320px);
+
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+    }
+
+    .soft-skills {
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .action-row {
+        justify-content: center;
+    }
+
+    .mindset-group {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-header {
+        align-items: center;
+    }
+
+    .subtitle {
+        margin: 0;
+    }
+}

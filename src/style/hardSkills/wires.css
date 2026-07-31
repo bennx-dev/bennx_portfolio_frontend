@@ -1,0 +1,22 @@
+/* ========================================
+   SVG WIRES
+======================================== */
+
+.wire {
+    fill: none;
+    stroke: #c28f44;
+    stroke-width: 2;
+    stroke-dasharray: 8;
+    filter: drop-shadow(0 0 6px #c28f44);
+    animation: flow 2s linear infinite;
+}
+
+/* ========================================
+   KEYFRAMES
+======================================== */
+
+@keyframes flow {
+    to {
+        stroke-dashoffset: -16;
+    }
+}

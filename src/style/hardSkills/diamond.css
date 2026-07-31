@@ -1,0 +1,65 @@
+/* ========================================
+   CENTER DIAMOND
+======================================== */
+
+.center-diamond {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: clamp(60px, 16%, 70px);
+    height: clamp(60px, 16%, 80px);
+    border: 1px solid #c28f44;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    animation: diamond 4s normal infinite;
+}
+
+.center-diamond::before {
+    content: "</B>";
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c28f44;
+    font-weight: bold;
+    font-size: clamp(16px, 3vw, 24px);
+    transform: rotate(-45deg);
+}
+
+/* ========================================
+   KEYFRAMES
+======================================== */
+
+@keyframes diamond {
+    0% {
+        transform: translate(-50%, -50%) rotate(45deg) translateY(0px);
+        background-position: -200% 0;
+    }
+
+    50% {
+        transform: translate(-50%, -50%) rotate(45deg) translateY(-8px);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(45deg) translateY(0px);
+        background-position: 200% 0;
+    }
+}
+
+.center-diamond:hover {
+
+    border-color: rgba(194,143,68,0.45);
+
+    box-shadow:
+            0 0 14px rgba(194,143,68,0.25);
+
+    background-image: linear-gradient(
+            120deg,
+            rgba(255,255,255,0.03) 0%,
+            rgba(194,143,68,0.25) 50%,
+            rgba(255,255,255,0.03) 100%
+    );
+
+    background-size: 200% 100%;
+}

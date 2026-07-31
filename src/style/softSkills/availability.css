@@ -1,0 +1,9 @@
+.availability {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: var(--margin-text);
+}

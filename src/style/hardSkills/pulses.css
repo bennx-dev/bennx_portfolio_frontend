@@ -1,0 +1,147 @@
+/* ========================================
+   PULSES KEYFRAMES
+======================================== */
+
+.pulse {
+    transform-box: fill-box;
+    transform-origin: center;
+    filter: drop-shadow(0 0 10px #c28f44);
+}
+
+/* TOP LEFT */
+.pulse1 {
+    animation: pulseMove1 3s linear infinite
+    ,groupA 6s linear infinite;
+}
+
+/* BOTTOM RIGHT */
+.pulse2 {
+    animation: pulseMove2 3s linear infinite
+    ,groupA 6s linear infinite;
+}
+
+/* BOTTOM CENTER */
+.pulse3 {
+    animation: pulseMove3 7.5s linear infinite;
+}
+
+/* BOTTOM LEFT*/
+.pulse4 {
+    animation: pulseMove4 3s linear infinite
+    ,groupB 6s linear infinite;
+}
+
+/* TOP RIGHT */
+.pulse5 {
+    animation: pulseMove5 3s linear infinite
+    ,groupB 6s linear infinite;
+}
+
+/* TOP CENTER */
+.pulse6 {
+    animation: pulseMove6 7.5s linear infinite;
+}
+
+@keyframes groupA {
+    0%, 40% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+}
+
+@keyframes groupB {
+    0%, 40% { opacity: 0; }
+    50%, 100% { opacity: 1; }
+}
+
+/* TOP LEFT */
+
+@keyframes pulseMove1 {
+
+    0% {
+        transform: translate(120px, 210px);
+    }
+
+    50% {
+        transform: translate(240px, 210px);
+    }
+
+    100% {
+        transform: translate(300px, 300px);
+    }
+}
+
+/* BOTTOM RIGHT */
+
+@keyframes pulseMove2 {
+
+    0% {
+        transform: translate(480px, 390px);
+    }
+
+    50% {
+        transform: translate(360px, 390px);
+    }
+
+    100% {
+        transform: translate(300px, 300px);
+    }
+}
+
+/* BOTTOM CENTER */
+
+@keyframes pulseMove3 {
+
+    0% {
+        transform: translate(300px, 480px);
+    }
+
+    100% {
+        transform: translate(300px, 300px);
+    }
+}
+
+/* BOTTOM LEFT*/
+
+@keyframes pulseMove4 {
+
+    0% {
+        transform: translate(120px, 390px);
+    }
+
+    50% {
+        transform: translate(240px, 390px);
+    }
+
+    100% {
+        transform: translate(300px, 300px);
+    }
+}
+
+/* TOP RIGHT */
+
+@keyframes pulseMove5 {
+
+    0% {
+        transform: translate(480px, 210px);
+    }
+
+    50% {
+        transform: translate(360px, 210px);
+    }
+
+    100% {
+        transform: translate(300px, 300px);
+    }
+}
+
+/* TOP CENTER */
+
+@keyframes pulseMove6 {
+
+    0% {
+        transform: translate(300px, 130px);
+    }
+
+    100% {
+        transform: translate(300px, 270px);
+    }
+}

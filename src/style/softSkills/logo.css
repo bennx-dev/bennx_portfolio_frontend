@@ -1,0 +1,56 @@
+.logo {
+    width: 70px;
+    height: 80px;
+
+    border: 1px solid #c28f44;
+    background: rgba(255, 255, 255, 0.03);
+
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+    transform: rotate(45deg);
+    animation: float 4s ease-in-out infinite;
+
+    background-size: 200% 100%;
+
+    font-size: clamp(24px, 3vw, 24px);
+}
+
+.logo:hover {
+
+    border-color: rgba(194,143,68,0.45);
+
+    box-shadow:
+            0 0 14px rgba(194,143,68,0.25);
+
+    background-image: linear-gradient(
+            120deg,
+            rgba(255,255,255,0.03) 0%,
+            rgba(194,143,68,0.25) 50%,
+            rgba(255,255,255,0.03) 100%
+    );
+
+    background-size: 200% 100%;
+}
+
+.logo span {
+    transform: rotate(-45deg);
+    color: #c28f44;
+    font-weight: bold;
+}
+
+/* ========================================
+   KEYFRAMES
+======================================== */
+
+@keyframes float {
+    0%, 100% {
+        transform: rotate(45deg) translateY(0px);
+        background-position: -200% 0;
+    }
+    50% {
+        transform: rotate(45deg) translateY(-8px);
+        background-position: 200% 0;
+    }
+}
