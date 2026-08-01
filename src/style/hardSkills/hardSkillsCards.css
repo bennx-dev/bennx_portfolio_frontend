@@ -75,18 +75,18 @@
 }
 
 .itOperations {
-    top: 8%;
+    top: 7%;
     right: 0;
 }
 
 .automation {
-    bottom: -4%;
+    bottom: -6%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .bestPractices {
-    bottom: 6.6%;
+    bottom: -1%;
     right: 0;
 }
 

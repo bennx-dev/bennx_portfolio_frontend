@@ -82,6 +82,12 @@ export const skills = {
             label: "Networking",
             tooltip: "IP, VLAN, WIFI"
         },
+        {
+            href: "https://www.ibm.com/think/topics/virtualization",
+            icon: <img src="/hyperv.png" alt="virtualization"/>,
+            label: "HyperV, VMWare, KVM",
+            tooltip: "virtual environments on a single physical machine"
+        }
     ],
 
     automation: [
@@ -148,6 +154,12 @@ export const skills = {
             icon: <Accessibility size={24} color="#c28f44"/>,
             label: "Accessibility",
             tooltip: "Inclusive user interface practices"
+        },
+        {
+            href: "https://www.logicmonitor.com/",
+            icon: <img src="/logicmonitor.png" alt="logicmonitor"/>,
+            label: "Monitoring",
+            tooltip: "Autonomous IT"
         }
     ],
 

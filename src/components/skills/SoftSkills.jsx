@@ -27,7 +27,7 @@ export default function SoftSkills() {
             </div>
 
             <p className="intro-text intro-text-p">
-                Software Development • IT Operations & support • Automation
+                Software Development • IT Operations • Automation
             </p>
 
             <div className="action-row">
