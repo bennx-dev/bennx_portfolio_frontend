@@ -18,8 +18,6 @@ import './style/skills.css'
 import './style/softSkills/softSkills.css'
 import './style/icons/softSkillsIcons.css'
 import './style/softSkills/pill.css'
-import './style/softSkills/dot.css'
-import './style/softSkills/availability.css'
 import './style/softSkills/logo.css'
 
 /* ========================================

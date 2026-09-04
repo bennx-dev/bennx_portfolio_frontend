@@ -21,11 +21,6 @@ export default function SoftSkills() {
                     IT <span className="developer-subtitle">PROFESSIONAL</span>
             </h4>
 
-            <div className="availability">
-                <span className="dot"></span>
-                Onmiddellijk beschikbaar voor werk
-            </div>
-
             <p className="intro-text intro-text-p">
                 Software Development • IT Operations • Automation
             </p>
