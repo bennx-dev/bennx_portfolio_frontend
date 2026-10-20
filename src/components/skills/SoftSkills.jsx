@@ -1,5 +1,3 @@
-import Github from "../icons/Github.jsx";
-import Linkedin from "../icons/Linkedin.jsx";
 
 export default function SoftSkills() {
 
@@ -25,29 +23,6 @@ export default function SoftSkills() {
                 Software Development • IT Operations • Automation
             </p>
 
-            <div className="action-row">
-                <div className="github soft-skills-icons">
-                    <a
-                        href="https://github.com/bennx-dev"
-                        target="_blank"
-                        aria-label="GitHub"
-                        title={"Github van Benny"}
-                    >
-                        <Github/>
-                    </a>
-                </div>
-
-                <div className="soft-skills-icons">
-                    <a
-                        href="https://www.linkedin.com/in/bennx-dev/"
-                        target="_blank"
-                        aria-label="LinkedIn"
-                        title={"LinkedIn van Benny"}
-                    >
-                        <Linkedin/>
-                    </a>
-                </div>
-            </div>
         </div>
     );
 }

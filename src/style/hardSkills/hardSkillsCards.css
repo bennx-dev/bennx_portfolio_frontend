@@ -92,6 +92,7 @@
 
 .project {
     top: 0;
+    bottom: 75%;
     left: 50%;
     transform: translateX(-50%);
 }
