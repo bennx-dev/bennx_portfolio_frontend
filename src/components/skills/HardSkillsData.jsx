@@ -117,7 +117,7 @@ export const skills = {
         },
         {
             href: "https://www.redhat.com/en/topics/devops/what-is-ci-cd",
-            icon: <Github />,
+            icon: <img src="/cicd.webp" alt="bash"/>,
             label: "CI/CD",
             tooltip: "aims to streamline and accelerate the software development lifecycle."
         },
@@ -156,8 +156,8 @@ export const skills = {
             tooltip: "Inclusive user interface practices"
         },
         {
-            href: "https://www.logicmonitor.com/",
-            icon: <img src="/logicmonitor.png" alt="logicmonitor"/>,
+            href: "https://grafana.com/",
+            icon: <img src="/grafana.png" alt="grafana"/>,
             label: "Monitoring",
             tooltip: "Autonomous IT"
         }
@@ -167,7 +167,7 @@ export const skills = {
 
         {
             href: "https://www.ibm.com/think/topics/artificial-intelligence",
-            icon: <img src="/llm.svg" alt="llm"/>,
+            icon: <img src="/ai.png" alt="llm"/>,
             label: "LLMs",
             tooltip: "Technology enabling machines to simulate human learning and reasoning"
         },
@@ -205,22 +205,10 @@ export const skills = {
             tooltip: "Full-stack webshop application"
         },
         {
-            href: "https://github.com/bennx-dev/Toys-Spring-Data-",
+            href: "https://github.com/bennx-dev?tab=repositories",
             icon: <Github />,
-            label: "Toys",
-            tooltip: "Spring Data school project"
-        },
-        {
-            href: "https://github.com/bennx-dev/Movies-Spring-MVC",
-            icon: <Github />,
-            label: "Movies",
-            tooltip: "Spring MVC school project"
-        },
-        {
-            href: "https://github.com/bennx-dev/Luigi-Spring-MVC",
-            icon: <Github />,
-            label: "Pizzeria",
-            tooltip: "Restaurant ordering school project"
+            label: "Project code",
+            tooltip: "Source code of my personal projects"
         }
     ]
 };
